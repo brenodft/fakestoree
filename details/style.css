@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+* {
+  font-family: "Roboto", sans-serif;
+}
+.carrinho {
+  width: 3em;
+}
+.carrinhoalign {
+  display: flex;
+  color: #4062bb;
+  margin-left: 14em;
+}
+.titlecarrinho {
+  margin-top: 18px;
+  margin-right: 8px;
+}
+.headerlink {
+  text-decoration: none;
+  font-size: 20px;
+}
+.blue {
+  color: #4062bb;
+}
+.filtercontainer {
+  margin-left: 5em;
+  margin-top: 5em;
+}
+.precos {
+  margin-top: 2em;
+}
+.preco {
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 2px;
+}
+.prapida {
+  color: #272727;
+  text-align: center;
+  padding-top: 1em;
+}
+.marcas {
+  margin-top: 1em;
+}
+.filtro{
+  margin-right: 4rem;
+}
+.categoriasfiltro {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 2em;
+}
+.tamanhosfiltro {
+  display: flex;
+  gap: 20px;
+}
+.asidebox {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.25em;
+  padding-left: 2em;
+}
+.asidetitle {
+  color: #4062bb;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.asidegroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.itemaside {
+  display: flex;
+}
+.asideimg {
+  width: 100px;
+  height: 100px;
+  margin-right: 2em;
+}
+.textaside {
+  display: flex;
+  flex-direction: column;
+}
+.asideitemtitle {
+  width: 200px;
+  color: #272727;
+}
+.asideitemsubtitle {
+  width: 200px;
+  color: #82c0cc;
+  margin-left: 2em;
+}
+
+.newsletter {
+  color: #4062bb;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.newsletterdesc {
+  color: #272727;
+  margin-bottom: 1em;
+}
+.pagamentometodo {
+  width: 2em;
+}
+.redesocial {
+  width: 2em;
+}
+.contatorede {
+  width: 1.2em;
+}
+.titlefooter {
+  color: #272727;
+}
+.minimenu {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .logoofc {
+    margin-left: 5em;
+  }
+  .bemvindo {
+    display: none;
+  }
+  .pesquisaheader {
+    position: relative;
+    top: 4em;
+    left: 5em;
+    width: 20em;
+  }
+}
+@media (max-width: 1400px) {
+  .filtro {
+    margin-right: 10em;
+    display: none;
+  }
+  .carroselgrande {
+    margin-left: 15em;
+  }
+  .containerfilter {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .filtro {
+    margin-right: 10em;
+    display: none;
+  }
+  .carroselgrande {
+    margin-left: 2em;
+  }
+  .containerfilter {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .logoofc {
+    margin-left: 5em;
+  }
+  .bemvindo {
+    display: none;
+  }
+  .pesquisaheader {
+    position: relative;
+    top: 4em;
+    left: 5em;
+    width: 20em;
+  }
+  .filtercontainer {
+    display: none;
+  }
+  .filtro {
+    margin-right: 20em;
+  }
+  .filtro h1 {
+    display: none;
+  }
+  .filtercontainer h1 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .minimenu {
+    display: block;
+  }
+  .cabecalho {
+    display: none;
+  }
+  .carousel {
+    margin-top: 3em;
+    display: none;
+  }
+  .filtercontainer {
+    margin-left: 30px;
+  }
+
+  .prapida {
+    margin-left: 5em;
+    width: 250px;
+    position: relative;
+    right: 4em;
+  }
+  .text-black {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .minimenu {
+    display: block;
+  }
+  .cabecalho {
+    display: none;
+  }
+  .carousel {
+    margin-top: 3em;
+    display: none;
+  }
+  .filtercontainer {
+    margin-left: 30px;
+  }
+
+  .prapida {
+    margin-left: 5em;
+    width: 250px;
+    position: relative;
+    right: 4em;
+  }
+  .text-black {
+    display: none;
+  }
+  .asidebox {
+    width: 100%;
+    background-color: white;
+  }
+}
+#flexproduct{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+#flexproduct img{
+  display: flex;
+  gap: 10rem;
+  border-radius: 4rem;
+  width: 30rem;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 20rem;
+}
+.proddetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: max-content;
+  padding: 2.5rem;
+}
+.imagemdestaqueprod{
+  width: 40rem;
+}
+.titleprod{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.precoprod{
+  font-size: 3rem;
+  color: #0448f1;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 4rem;
+}
+.descprod{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
